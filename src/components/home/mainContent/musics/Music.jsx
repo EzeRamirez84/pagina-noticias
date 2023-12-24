@@ -10,21 +10,11 @@ const Music = () => {
     className: "center",
     centerMode: false,
     infinite: true,
-    centerPadding: "",
-    slidesToShow: 2,
-    speed: 500,
+    slidesToShow: 1,
+    speed: 1000,
     rows: 2,
     slidesPerRow: 1,
     dots: false,
-    responsive: [
-      {
-        breakpoint: 800,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        }
-      },
-    ]
   };
   return (
 

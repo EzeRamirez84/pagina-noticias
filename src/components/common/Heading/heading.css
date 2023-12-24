@@ -16,3 +16,7 @@
   justify-content: center;
   font-size: 14px;
 }
+
+.sideContent .heading h6{
+  background-color: #000;
+}
