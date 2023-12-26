@@ -31,10 +31,10 @@ i {
   align-items: center;
   justify-content: space-between;
 }
-
 .flex {
   display: flex;
 }
+
 .paddingTB {
   padding: 40px 0;
 }
@@ -46,6 +46,12 @@ li,
 ul {
   list-style-type: none;
 }
+
+a {
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
 .category {
   font-size: 12px;
   font-weight: 500;

@@ -16,12 +16,12 @@ function Header() {
             onClick={() => setnavbar(false)}
             >
               <li><Link to='/'>Home</Link></li>
-              <li><Link to='/Culture'>Culture</Link></li>
-              <li><Link to='/politics'>Politics</Link></li>
+              <li><Link to='/Culture'>Cultura</Link></li>
+              <li><Link to='/politics'>Política</Link></li>
               <li><Link to='/memes'>Memes</Link></li>
-              <li><Link to='/sports'>Sports</Link></li>
+              <li><Link to='/sports'>Deportes</Link></li>
               <li><Link to='/boxed'>Boxed</Link></li>
-              <li><Link to='/reviews'>Reviews</Link></li>
+              <li><Link to='/reviews'>Reseñas</Link></li>
 
             </ul>
             <button className='barIco'onClick={()=>setnavbar(!navbar)}>

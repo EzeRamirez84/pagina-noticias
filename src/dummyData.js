@@ -3,7 +3,7 @@ export const hero = [
     id: 1,
     cover: "../images/hero/hero1.jpg",
     category: "destacado",
-    title: "Google To Boost Android Security In Few Days",
+    title: "Google mejorará la seguridad de Android en pocos días",
     authorName: "Salman",
     authorImg: "../images/author.jpg",
     time: "5 Jun - 2022",
@@ -38,10 +38,10 @@ export const hero = [
     id: 2,
     cover: "../images/hero/hero2.jpg",
     category: "deportes",
-    title: "More than billion football fans attend Brazil world cup",
+    title: "Más de mil millones de aficionados al fútbol acuden al Mundial de Brasil",
     authorName: "alex",
     authorImg: "../images/author.jpg",
-    time: "12 Aug - 2022",
+    time: "12 Ago - 2022",
     desc: [
       {
         para1: "You audience. Least, the recently his repeat the this avarice for the have and was on would before the concise bedding were hall politely name be regretting have of even five of it the his are there again. Word seven designer far lady problem will have work with you to fully understand your business to achieve.",
@@ -73,7 +73,7 @@ export const hero = [
     id: 3,
     cover: "../images/hero/hero3.jpg",
     category: "moda",
-    title: "No escaping new high tech speed cameras",
+    title: "No hay escapatoria a los nuevos radares de alta tecnología",
     authorName: "rina",
     authorImg: "../images/author.jpg",
     time: "22 Mar - 2022",
@@ -108,10 +108,10 @@ export const hero = [
     id: 4,
     cover: "../images/hero/hero4.jpg",
     category: "tecnología",
-    title: "Emma Watson stands up for Turkish women",
+    title: "Emma Watson defiende a las mujeres turcas",
     authorName: "sunil",
     authorImg: "../images/author.jpg",
-    time: "08 Dec - 2022",
+    time: "08 Dic - 2022",
     desc: [
       {
         para1: "You audience. Least, the recently his repeat the this avarice for the have and was on would before the concise bedding were hall politely name be regretting have of even five of it the his are there again. Word seven designer far lady problem will have work with you to fully understand your business to achieve.",
@@ -428,15 +428,15 @@ export const gallery = [
 ]
 export const discover = [
   {
-    title: "games",
+    title: "juegos",
     cover: "../images/discover/d1.jpg",
   },
   {
-    title: "sports",
+    title: "deportes",
     cover: "../images/discover/d2.jpg",
   },
   {
-    title: "humour",
+    title: "humor",
     cover: "../images/discover/d3.jpg",
   },
   {
@@ -444,11 +444,11 @@ export const discover = [
     cover: "../images/discover/d4.jpg",
   },
   {
-    title: "movies",
+    title: "películas",
     cover: "../images/discover/d5.jpg",
   },
   {
-    title: "nitendo",
+    title: "nintendo",
     cover: "../images/discover/d6.jpg",
   },
 ]

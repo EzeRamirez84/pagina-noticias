@@ -74,9 +74,9 @@
   background-color: #0b9931;
 }
 
-/* .hero .box:nth-child(3) .category{
+.hero .box:nth-child(3) .category{
   background-color: #9f0dc3;
-} */
+}
 
 .hero .box:nth-child(4) .category {
   background-color: #c78823;

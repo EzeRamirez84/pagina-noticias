@@ -1,88 +1,110 @@
-.social .socBox{
-    background-color: chocolate;
-    color: white;
-    margin-bottom: 10px;
-    padding: 10px 20px;
-    /* display: flex;
+.social .socBox {
+  background-color: chocolate;
+  color: white;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  /* display: flex;
     align-items: center;
     justify-content: flex-start; */
 }
 
-.social .socBox:nth-child(1){
-    background-color: #3b5998;
+.social .socBox:nth-child(1) {
+  background-color: #3b5998;
 }
 
-.social .socBox:nth-child(2){
-    background-color:#bd081c;
+.social .socBox:nth-child(2) {
+  background-color: #bd081c;
 }
 
-.social .socBox:nth-child(3){
-    background-color:#1da1f2;
+.social .socBox:nth-child(3) {
+  background-color: #1da1f2;
 }
 
-.social .socBox:nth-child(4){
-    background-color:#c32aa3;
+.social .socBox:nth-child(4) {
+  background-color: #c32aa3;
 }
 
-.social .socBox:nth-child(5){
-    background-color: red;
+.social .socBox:nth-child(5) {
+  background-color: red;
 }
 
-.social .socBox:nth-child(6){
-    background-color:#010101;
+.social .socBox:nth-child(6) {
+  background-color: #010101;
 }
 
-.social .socBox i{
-    padding-right: 15px;
+.social .socBox i {
+  padding-right: 15px;
 }
-.social .socBox span{
-    font-weight: 500;
+.social .socBox span {
+  font-weight: 500;
 }
 
 /* Subscribe */
-.subscribe{
-    border: 1px solid #000;
-    padding: 20px;
-    text-align: center;
+.subscribe {
+  border: 1px solid #000;
+  padding: 20px;
+  text-align: center;
 }
-.subscribe h1{
-    text-align: left;
-    font-size: 20px;
+.subscribe h1 {
+  text-align: left;
+  font-size: 20px;
 }
-.subscribe input[type='text']{
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
+.subscribe input[type='text'] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
 }
-.subscribe button{
-    width: 100%;
-    padding: 10px;
-    border: none;
-    color: #fff;
-    background-color: red;
-    font-weight: 700;
-    cursor: pointer;
-}
-
-.subscribe button:hover{
-    background-color: #e10000;
+.subscribe button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  color: #fff;
+  background-color: red;
+  font-weight: 700;
+  cursor: pointer;
 }
 
-.subscribe i{
-    padding: 0 5px;
+.subscribe button:hover {
+  background-color: #e10000;
 }
 
+.subscribe i {
+  padding: 0 5px;
+}
+/* Subscribe */
 
 /* Banner */
 
-.banner{
-    margin: 40px 0;
+.banner {
+  margin: 40px 0;
 }
 
-.category .category1{
-    position: relative;
-    margin-bottom: 20px;
-    padding: 10px;
+.categorys .category1 {
+  position: relative;
+  margin-bottom: 20px;
+  padding: 10px;
 }
 
+/* Banner */
 
+/* Gallery */
+
+.gallery .img,
+.gallery img {
+  width: 315px;
+  height: 200px;
+}
+.gallery img {
+  object-fit: cover;
+}
+
+/* Gallery */
+@media screen and (max-width: 768px) {
+  .gallery .img,
+  .gallery img {
+    width: 100%;
+    height: 400px;
+  }
+  /* .gallery img {
+  } */
+}

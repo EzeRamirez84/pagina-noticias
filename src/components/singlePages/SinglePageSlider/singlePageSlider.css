@@ -1,0 +1,28 @@
+.singlepopular {
+    overflow: hidden;
+}
+.singlepopular .box {
+    width: 250px;
+    height: 150px;
+    position: relative;
+    cursor: pointer;
+}
+
+
+.singlepopular img {
+    width: 210px;
+    height: 100px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.singlepopular .text {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    padding: 10px;
+    color: #fff;
+    
+}
+.singlepopular .text h1 {
+    font-size: 13px;
+}

@@ -1,8 +1,8 @@
 import React from 'react';
 import Heading from '../../../common/Heading/Heading';
-import './popular.css';
 import { popular } from '../../../../dummyData';
 import Slider from "react-slick";
+import './popular.css';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 

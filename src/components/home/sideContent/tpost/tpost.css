@@ -1,7 +1,8 @@
 .tpost .box {
   margin-bottom: 20px;
 }
-.tpost .img img {
+.tpost .img,
+.tpost img {
   width: 100px;
   height: 80px;
 }
@@ -26,6 +27,6 @@
   }
   .tpost .text {
     width: 100%;
-    text-align: left;
+    /* text-align: left; */
   }
 }
