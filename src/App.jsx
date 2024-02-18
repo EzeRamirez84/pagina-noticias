@@ -26,6 +26,7 @@ const App = () => {
           
           </Route>
         </Switch>
+        <h1>Esto es una prueba!!!</h1>
         <Footer />
       </Router>
     </>
